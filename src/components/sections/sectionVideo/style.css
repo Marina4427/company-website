@@ -1,0 +1,17 @@
+.tutorial .container {
+    display: flex;
+    gap: 163px;
+    padding-bottom: 100px;
+    padding-right: 75px;
+  }
+  
+  .tutorial__title {
+    line-height: 1.24;
+    margin-bottom: 30px; 
+  }
+  
+  .tutorial__text {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }

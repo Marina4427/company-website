@@ -1,0 +1,37 @@
+    
+  .header__flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__container {
+    padding-block: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header__title {
+    font-family: CherrySwash;
+    font-size: 27px;
+    font-weight: 800;
+    color: inherit;
+    margin: -4px 0 0 8px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .header__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .content-left {
+    display: flex;
+    column-gap: 53px;
+  }
+
+  .header__title:hover {
+	color: var(--link-hover-color);
+	cursor: pointer;
+  }
+

@@ -1,0 +1,54 @@
+.button {
+	cursor: pointer;
+	font-size: 14px;
+	border: none;
+	background-color: var(--decorate-color);
+	white-space: nowrap;
+	letter-spacing: 0;
+	transition: all 0.5s ease-in-out;
+	padding: 8px 19px;
+	color: #fff;
+    display: inline-block;
+  }
+    
+  .button:hover .img__arrow {
+	fill: currentColor;
+	transform: translateX(10px);
+  }
+
+  .button:hover {
+	background-color: transparent;
+	color: var(--decorate-color);
+  }
+
+  .img__arrow {
+	margin-left: 10px;
+	width: 20px;
+	height: 10px;
+	fill: currentColor;
+	transition: fill, transform 0.3s ease-in-out;
+  }
+
+  .button.transparent {
+	background-color: transparent;
+  }
+
+  .btn__wide {
+	padding: 15px 25px;
+  }
+
+  .btn__color {
+	color: var(--decorate-color);
+	padding: 5px 13px 5px 1px;
+	width: max-content;
+  }
+
+  .btn__color:hover {
+	background-color: var(--decorate-color);
+	color: #fff;
+  }
+
+  .btn__footer {
+	background-color: transparent;
+	padding: 10px 30px 10px 0;
+  }

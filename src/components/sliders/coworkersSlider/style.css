@@ -1,0 +1,87 @@
+.img__container {
+    max-width: 350px;
+    max-height: 380px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.photo__employee {
+    object-position: top center;
+    object-fit: cover;
+  }
+  
+  .emoloyee__container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .coworkers {
+    padding-block: 100px;
+    padding-inline: 50px;
+  }
+  
+  .coworkers__link {
+    color: #2e4fd7;
+    font-size: 24px;
+    letter-spacing: -0.018em;
+    display: block;
+    margin-bottom: 24px;
+  }
+  
+  .coworkers__title {
+    font-size: 42px;
+    font-variation-settings: "wght" 700;
+    letter-spacing: -0.018em;
+  }
+  
+  .swiper-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .custom-button {
+    background-color: #e7ebfc;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    border-color: transparent;
+  }
+  
+  .container__title__buttons {
+    display: flex;
+    column-gap: 235px;
+    align-items: flex-end;
+    margin-bottom: 50px;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  .swiper-buttons .img__arrow {
+    margin-left: 0px;
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .coworkers_swiper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .coworkers .icon {
+    color: black;
+  }
+
+  .custom-button:hover {
+    background-color: #1a3bc3;
+  }
+
+  .custom-button:active {
+    background-color: #f46953;
+  }

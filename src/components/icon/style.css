@@ -1,0 +1,31 @@
+.icon {
+  color: #969696;
+  display: inline-block;
+  transition: color 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: var(--link-hover-color)
+}
+
+.svg__feature {
+  width: 44px;
+  padding-bottom: 7px;
+}
+
+.philips {
+  margin-top: 6px;
+}
+
+.amazon {
+  margin-top: 8px;
+}
+
+.logitech {
+  margin-top: 6px;
+}
+
+.google {
+  margin-top: 4px;
+}

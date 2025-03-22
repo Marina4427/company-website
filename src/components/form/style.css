@@ -1,0 +1,96 @@
+.formContact {
+    border: 1px solid var(--border-color);
+    background: var(--bg-color);
+    padding: 30px 36px 30px 26px;
+    max-width: 490px;
+    position: absolute;
+    right: 8%;
+  }
+  
+  .form_title {
+    font-size: 28px;
+    font-variation-settings: "wght" 600;
+    line-height: 1.215;
+    margin-bottom: 20px;
+  }
+  
+  .form_text {
+    color: var(--font-subtitle-color);
+    font-size: 18px;
+    line-height: 1.67;
+    margin-bottom: 40px;
+  }
+  
+  .container__label {
+    display: flex;
+    column-gap: 19px;
+  }
+  
+  .contactForm_input {
+    margin-block: 11px 24px;
+    background: inherit;
+    border: 1px solid var(--border-color);
+    padding: 18px;
+    width: 204px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+  .form__select {
+    display: flex;
+    background: inherit;
+    padding: 18px;
+    width: 100%;
+    /* border-color: var(--border-color); */
+    margin-top: 11px;
+    color: var(--font-subtitle-color);
+    font-size: 16px;
+    font-family: inherit;
+    border: 1px solid var(--border-color);
+  }
+  
+  option {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #000;
+  }
+  
+  .form__select:valid {
+    color: #000; /* Меняем цвет текста при выборе */
+  }
+  
+  .form_textarea {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+
+  }
+  
+  textarea {
+    background-color: var(--bg-color);
+   border: 1px solid var(--border-color);
+    margin-block: 11px 28px;
+    color: var(--main-color);
+    font-family: inherit;
+    padding: 5px 5px 5px 18px;
+    font-size: 16px;
+  }
+  
+  .form__button {
+    padding-block: 17px 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.12;
+  }
+  
+  .accent {
+    padding-top: 2px;
+    color: var(--decorate-color);
+    font-size: 20px;
+  }
